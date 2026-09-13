@@ -1,8 +1,8 @@
 name: My First Workflow
 on: push
 jobs:
-  say-hello:
+  greet-someone:
     runs-on: ubuntu-latest
     steps:
-      - name: Print a greeting
-        run: echo "Hello from the robot!"
+      - name: Say something
+        run: echo "Chill, getting to understand how this works!"
